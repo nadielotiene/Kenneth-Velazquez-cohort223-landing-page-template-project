@@ -1,0 +1,74 @@
+body, html {
+    min-height: 100vh;
+    min-width: 100%;
+    margin: 0;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: flex;
+    align-items: center;
+}
+
+.container-header {
+    background-image: url("mobile-email-template-1.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 100vh;
+    color: #fff;
+    font-size: 64px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-info {
+    min-height: 45vh;
+    text-align: center;
+    color: #FF69B4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info-img {
+    width: 100%;
+    height: auto;
+    padding-bottom: 30px;
+    object-fit: none;
+}
+
+.container-grid {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+.container-form {
+    margin: 0;
+    padding: 0;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.form-labels {
+    margin-top: 1;
+    padding-top: 4;
+}
+
+.container-footer {
+    min-height: 6vh;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
