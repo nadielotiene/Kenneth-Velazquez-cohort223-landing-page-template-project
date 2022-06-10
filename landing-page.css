@@ -18,17 +18,34 @@ img {
     background-attachment: fixed;
     background-size: cover;
     min-height: 100vh;
-    color: #fff;
-    font-size: 64px;
+    background-color: #21DBFD;
+    color: rgb(220, 80, 255);
+    font-family: 'Quando', serif;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
+.img-logo {
+    max-width: 20%;
+    height: auto;
+}
+
+.btn-lg {
+    margin: 10px;
+    background-color: #FF69B4;
+    color: #fff;
+}
+
+h2 {
+    font-size: 110px;
+}
+
 .container-info {
-    min-height: 45vh;
+    min-height: 34vh;
     text-align: center;
+    background-color: #00D8F0;
     color: #FF69B4;
     display: flex;
     align-items: center;
@@ -45,6 +62,9 @@ img {
 .container-grid {
     margin: 0;
     padding: 0;
+    background-color: #05B5E6;
+    max-width: 100%;
+    height: auto;
     display: flex;
     justify-content: space-around;
     align-content: space-around;
@@ -54,19 +74,26 @@ img {
     margin: 0;
     padding: 0;
     min-height: 50vh;
+    min-height: 50%;
+    background-color: #E0FFFF;
+    color: #007986;
     display: flex;
     flex-direction: column;
     align-content: center;
 }
 
-.form-labels {
-    margin-top: 1;
-    padding-top: 4;
+.img-icon {
+    padding: 5px;
+    max-width: 100%;
+    height: auto;
 }
 
 .container-footer {
     min-height: 6vh;
+    max-width: 100%;
+    height: auto;
     color: #fff;
+    background-color: #1EB0A9;
     text-align: center;
     display: flex;
     justify-content: center;
